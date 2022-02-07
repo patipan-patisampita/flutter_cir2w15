@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatelessWidget{
-  const HomeScreen({Key? key}):super(key: key);
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return Scaffold(
       //backgroundColor: Colors.white,
       appBar: AppBar(
@@ -13,15 +13,12 @@ class HomeScreen extends StatelessWidget{
         centerTitle: true,
       ),
       body: Center(
-        child: Text(
-          "Flutter App",
-          style: TextStyle(color:Colors.teal, fontSize: 30.0,fontWeight: FontWeight.bold),
-        ),
+        child: Image.asset("assets/images/bird.png",height: 250),
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.teal,
         child: Text("Add"),
-        onPressed: (){
+        onPressed: () {
           print("Test");
         },
       ),
