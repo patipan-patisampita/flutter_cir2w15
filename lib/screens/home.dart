@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({Key? key}) : super(key: key); //1.Create Constructor
 
-  @override
+  @override //2.build
   Widget build(BuildContext context) {
     return Scaffold(
       //backgroundColor: Colors.white,
